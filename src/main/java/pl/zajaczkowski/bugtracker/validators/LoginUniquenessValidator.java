@@ -3,8 +3,8 @@ package pl.zajaczkowski.bugtracker.validators;
 import pl.zajaczkowski.bugtracker.auth.Person;
 import pl.zajaczkowski.bugtracker.auth.PersonService;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import java.util.Optional;
 
 public class LoginUniquenessValidator implements ConstraintValidator<UniqueLogin, Person> {

@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import pl.zajaczkowski.bugtracker.validators.ValidPasswords;
 
-import javax.validation.constraints.Size;
+import jakarta.validation.constraints.Size;
 
 @ValidPasswords
 @Getter

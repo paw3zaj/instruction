@@ -2,7 +2,7 @@ package pl.zajaczkowski.bugtracker.issue;
 
 import pl.zajaczkowski.bugtracker.auth.Person;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity

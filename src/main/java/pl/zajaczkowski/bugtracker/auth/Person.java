@@ -8,8 +8,8 @@ import org.hibernate.annotations.ColumnDefault;
 import pl.zajaczkowski.bugtracker.validators.UniqueLogin;
 import pl.zajaczkowski.bugtracker.validators.ValidPasswords;
 
-import javax.persistence.*;
-import javax.validation.constraints.*;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
 import java.util.Set;
 
 @NoArgsConstructor

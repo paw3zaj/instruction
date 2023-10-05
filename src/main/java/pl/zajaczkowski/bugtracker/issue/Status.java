@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import pl.zajaczkowski.bugtracker.issue.enumes.StatusName;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @NoArgsConstructor
 @Getter

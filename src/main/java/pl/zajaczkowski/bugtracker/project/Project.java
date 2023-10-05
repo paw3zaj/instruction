@@ -6,8 +6,8 @@ import lombok.Setter;
 import org.hibernate.annotations.ColumnDefault;
 import pl.zajaczkowski.bugtracker.issue.Issue;
 
-import javax.persistence.*;
-import javax.validation.constraints.NotEmpty;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 import java.time.LocalDate;
 import java.util.Set;
 

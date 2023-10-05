@@ -1,9 +1,10 @@
 package pl.zajaczkowski.bugtracker.auth;
 
+import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @NoArgsConstructor
 @Getter

@@ -12,7 +12,7 @@ import pl.zajaczkowski.bugtracker.auth.AuthorityName;
 import pl.zajaczkowski.bugtracker.auth.PersonService;
 import pl.zajaczkowski.bugtracker.issue.IssueService;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.security.Principal;
 
 @Controller

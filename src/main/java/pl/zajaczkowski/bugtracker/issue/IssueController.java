@@ -12,7 +12,7 @@ import pl.zajaczkowski.bugtracker.mail.MailService;
 import pl.zajaczkowski.bugtracker.project.Project;
 import pl.zajaczkowski.bugtracker.project.ProjectService;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.security.Principal;
 
 @Controller

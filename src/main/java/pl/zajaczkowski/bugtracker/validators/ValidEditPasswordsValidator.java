@@ -2,8 +2,8 @@ package pl.zajaczkowski.bugtracker.validators;
 
 import pl.zajaczkowski.bugtracker.auth.EditPassword;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 
 public class ValidEditPasswordsValidator implements ConstraintValidator<ValidPasswords, EditPassword> {
 
